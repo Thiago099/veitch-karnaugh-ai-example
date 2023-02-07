@@ -22,3 +22,5 @@ var model = train(x, y);
 for(const item of x) {
     console.log(model.predict(item));
 }
+
+console.log(model.toString());
